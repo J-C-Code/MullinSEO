@@ -1,0 +1,22 @@
+{
+    "name": "Mullin Plumbing",
+    "short_name": "Mullin Plumbing",
+    "description": "Mullin Plumbing offers expert plumbing services in Broken Arrow, OK, including drain repair, clogged drain cleaning, water heater replacement, and leak repairs.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ff0000",
+    "icons": [
+      {
+        "src": "/static/images/favicon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/images/favicon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
