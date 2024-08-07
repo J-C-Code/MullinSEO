@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /settings/
+Disallow: /private/
+Disallow: /static/
+Allow: /static/images/
+Allow: /static/css/
+Allow: /static/js/
+Allow: /static/fonts/
+Sitemap: https://www.mullinplumbing.com/sitemap.xml
