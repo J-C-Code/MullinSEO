@@ -1,142 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9GQETJ0WFT"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-9GQETJ0WFT');
-    </script>
+     <!-- Google Tag -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9GQETJ0WFT"></script>
+     <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'G-9GQETJ0WFT');
+     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mullin Plumbing offers expert Plumbing and Drain services, including clogged drain repair, water heater replacements, or even a leaky faucet!">
     <meta name="keywords" content="Broken Arrow plumbing, drain repair, clogged drain, water heater replacement, leaking faucet, plumbing services, emergency plumbing, residential plumbing, commercial plumbing">
     <title>Mullin Plumbing | Top-Rated Plumbing Services in Broken Arrow, OK</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
     <!-- Favicon Links -->
     <link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png">
-
-    <link rel="manifest" href="/static/manifest/site.webmanifest">
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "PlumbingService",
-      "name": "Mullin Plumbing",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "118 S Elm Place",
-        "addressLocality": "Broken Arrow",
-        "addressRegion": "OK",
-        "postalCode": "74012",
-        "addressCountry": "US"
-      },
-      "telephone": "+19182052620",
-      "url": "http://www.mullininc.com",
-      "openingHours": "24/7",
-      "sameAs": "https://www.facebook.com/mullinfanpage/",
-      "priceRange": "$$"
-    }
-    </script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Mullin Plumbing</h1>
-            <nav>
-                <ul>
-                    <li><a href="#services">Our Services</a></li>
-                    <li><a href="#residential">Residential Plumbing</a></li>
-                    <li><a href="#commercial">Commercial Plumbing</a></li>
-                    <li><a href="#emergency">Emergency Services</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section id="services" class="hero">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-danger">
         <div class="container">
-            <h2>Your 24/7 Plumbing Experts in Broken Arrow</h2>
-            <p>Our red vans are out serving you every day. Since 1973, Mullin Plumbing, Inc. has been the trusted name in Residential and Commercial plumbing throughout Oklahoma. Our certified team provides reliable services around the clock. <a href="#contact">Contact us today to see how we can help you!</a></p>
-            <a href="tel:+19182052620" class="phone-button">(918) 205-2620</a>
+            <a class="navbar-brand text-danger" href="index.html">Mullin Plumbing</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a class="nav-link text-danger" href="#services">Our Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger" href="#residential">Residential Plumbing</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger" href="#commercial">Commercial Plumbing</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger" href="#emergency">Emergency Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="services" class="py-5 text-center bg-danger text-white">
+        <div class="container">
+            <h1>Your 24/7 Plumbing Experts in Broken Arrow</h1>
+            <p>Our red vans are out serving you every day. Since 1973, Mullin Plumbing, Inc. has been the trusted name in Residential and Commercial plumbing throughout Oklahoma. Our certified team provides reliable services around the clock.</p>
+            <div class="d-flex justify-content-center">
+                <a href="tel:+19182052620" class="btn btn-light btn-lg mt-3">Call Now: (918) 205-2620</a>
+            </div>
         </div>
     </section>
 
-    <section id="residential" class="services">
+    <!-- Background Image Section -->
+    <section class="hero">
+        <!-- Content here if needed, or just an empty section for the background image -->
+    </section>
+
+    <!-- Residential Services -->
+    <section id="residential" class="py-5 text-center">
         <div class="container">
-            <h2>Residential Plumbing Services</h2>
-            <div class="service-list">
-                <div class="service">
-                    <h3>Plumbing Repairs</h3>
-                    <p>Our experienced technicians handle everything from <strong>leaking faucets</strong> to <strong>clogged drains</strong>, ensuring swift and effective solutions for your home.</p>
+            <h2 class="text-danger">Residential Plumbing Services</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-danger">Plumbing Repairs</h3>
+                    <p>Our experienced technicians handle everything from leaking faucets to clogged drains, ensuring swift and effective solutions for your home.</p>
                 </div>
-                <div class="service">
-                    <h3>Drain Repair and Cleaning</h3>
-                    <p>We specialize in <strong>drain repair</strong> and <strong>clogged drain</strong> cleaning, using state-of-the-art equipment to clear blockages and prevent future problems.</p>
+                <div class="col-md-6">
+                    <h3 class="text-danger">Drain Repair and Cleaning</h3>
+                    <p>We specialize in drain repair and clogged drain cleaning, using state-of-the-art equipment to clear blockages and prevent future problems.</p>
                 </div>
-                <div class="service">
-                    <h3>Water Heater Replacement</h3>
-                    <p>Ensure you always have hot water with our <strong>water heater replacement</strong> services. We offer comprehensive installation and maintenance solutions.</p>
+                <div class="col-md-6">
+                    <h3 class="text-danger">Water Heater Replacement</h3>
+                    <p>Ensure you always have hot water with our water heater replacement services. We offer comprehensive installation and maintenance solutions.</p>
                 </div>
-                <div class="service">
-                    <h3>Fixture Installation</h3>
-                    <p>Need new fixtures installed? Our team handles everything from faucets and sinks to toilets and showers, ensuring proper installation and resolving issues like <strong>leaking faucets</strong>.</p>
+                <div class="col-md-6">
+                    <h3 class="text-danger">Fixture Installation</h3>
+                    <p>Need new fixtures installed? Our team handles everything from faucets and sinks to toilets and showers, ensuring proper installation and resolving issues like leaking faucets.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="commercial" class="services">
+    <!-- Commercial Services -->
+    <section id="commercial" class="py-5 bg-light text-center">
         <div class="container">
-            <h2>Commercial Plumbing Services</h2>
-            <div class="service-list">
-                <div class="service">
-                    <h3>Commercial Plumbing Repairs</h3>
-                    <p>Minimize downtime with our prompt solutions for <strong>drain repair</strong>, <strong>water heater replacement</strong>, and other commercial plumbing needs.</p>
+            <h2 class="text-danger">Commercial Plumbing Services</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-danger">Commercial Plumbing Repairs</h3>
+                    <p>Minimize downtime with our prompt solutions for drain repair, water heater replacement, and other commercial plumbing needs.</p>
                 </div>
-                <div class="service">
-                    <h3>Grease Trap Solutions</h3>
+                <div class="col-md-6">
+                    <h3 class="text-danger">Grease Trap Solutions</h3>
                     <p>We provide expert grease trap installation, cleaning, and maintenance, ensuring smooth operations for restaurants and food service businesses.</p>
                 </div>
-                <div class="service">
-                    <h3>Backflow Prevention</h3>
+                <div class="col-md-6">
+                    <h3 class="text-danger">Backflow Prevention</h3>
                     <p>Protect your water supply with our backflow prevention solutions, ensuring compliance with local regulations and safeguarding your water quality.</p>
                 </div>
-                <div class="service">
-                    <h3>Water Line Solutions</h3>
+                <div class="col-md-6">
+                    <h3 class="text-danger">Water Line Solutions</h3>
                     <p>From installation to repairs, our skilled team manages all aspects of water line services with advanced technology for effective solutions.</p>
                 </div>
-                <div class="service">
-                    <h3>Commercial Plumbing Maintenance</h3>
-                    <p>Prevent costly emergencies with our tailored maintenance plans, addressing potential issues like <strong>leaking faucets</strong> and <strong>clogged drains</strong>.</p>
+                <div class="col-md-6">
+                    <h3 class="text-danger">Commercial Plumbing Maintenance</h3>
+                    <p>Prevent costly emergencies with our tailored maintenance plans, addressing potential issues like leaking faucets and clogged drains.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="emergency" class="services">
+    <!-- Emergency Services -->
+    <section id="emergency" class="py-5 text-center">
         <div class="container">
-            <h2>Emergency Plumbing Services</h2>
-            <p>Available 24/7 for urgent issues such as burst pipes and sewer backups. For immediate assistance with <strong>drain repair</strong>, <strong>clogged drains</strong>, <strong>water heater replacement</strong>, and <strong>leaking faucets</strong>, call us anytime.</p>
+            <h2 class="text-danger">Emergency Plumbing Services</h2>
+            <p>Available 24/7 for urgent issues such as burst pipes and sewer backups. For immediate assistance with drain repair, clogged drains, water heater replacement, and leaking faucets, call us anytime.</p>
+            <div class="d-flex justify-content-center">
+                <a href="tel:+19182052620" class="btn btn-danger btn-lg">Call Now: (918) 205-2620</a>
+            </div>
         </div>
     </section>
 
-    <section id="contact">
-        <div class="container contact-info">
-            <h2>Contact Mullin Plumbing</h2>
-            <p>For reliable plumbing services in Broken Arrow, contact us at <a href="tel:+19182052620">(918) 205-2620</a> or <a href="mailto:info@mullinplumbing.com">email us</a>.</p>
-            <p>Visit us at: 118 S Elm Place, Broken Arrow, Oklahoma 74012</p>
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <a href="index.html" class="text-white">Home</a> |
+            <a href="residential.html" class="text-white">Residential</a> |
+            <a href="commercial.html" class="text-white">Commercial</a> |
+            <a href="emergency.html" class="text-white">Emergency</a>
         </div>
-    </section>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

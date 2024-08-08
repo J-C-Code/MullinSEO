@@ -47,7 +47,8 @@ nav ul li a:hover {
     background: url(background.jpg) no-repeat center center/cover;
     color: white;
     text-align: center;
-    padding: 80px 20px;
+    height: 300px; /* Adjust this value as needed */
+    padding: 80px 20px; /* Optional, adjust if necessary */
 }
 
 .hero h2 {
@@ -57,21 +58,47 @@ nav ul li a:hover {
 
 .hero p {
     font-size: 1.5em;
+    margin-bottom: 20px; /* Add margin for better spacing */
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: #ffcc00; /* Highlighted button color */
+    color: #d32f2f;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #e6b800; /* Darker shade for hover */
+    transform: scale(1.05);
+}
+
+.hero .btn:active {
+    background-color: #ffcc00; /* Ensure color remains consistent when clicked */
+    transform: scale(0.98);
 }
 
 .services {
-    padding: 40px 0;
+    padding: 40px 20px;
     background: #fff;
 }
 
 .services h2 {
     color: #d32f2f;
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px;
 }
 
 .service-list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center; /* Center align service items */
 }
 
 .service {
