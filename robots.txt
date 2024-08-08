@@ -7,4 +7,4 @@ Allow: /static/images/
 Allow: /static/css/
 Allow: /static/js/
 Allow: /static/fonts/
-Sitemap: https://www.mullinplumbing.com/sitemap.xml
+Sitemap: https://getplumbing.org/sitemap.xml
