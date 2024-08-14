@@ -3,14 +3,14 @@ import json
 
 url = "https://api.indexnow.org/indexnow"
 payload = {
-  "host": "www.getplumbing.org",
+  "host": "getplumbing.org",
   "key": "508d95872abe40fa8ca2ccf8a5b26e2d",
-  "keyLocation": "https://www.getplumbing.org/508d95872abe40fa8ca2ccf8a5b26e2d.txt",
+  "keyLocation": "https://getplumbing.org/508d95872abe40fa8ca2ccf8a5b26e2d.txt",
   "urlList": [
-    "https://www.getplumbing.org/",
-    "https://www.getplumbing.org/residential",
-    "https://www.getplumbing.org/commercial",
-    "https://www.getplumbing.org/emergency"
+    "https://getplumbing.org/",
+    "https://getplumbing.org/residential",
+    "https://getplumbing.org/commercial",
+    "https://getplumbing.org/emergency"
   ]
 }
 headers = {"Content-Type": "application/json; charset=utf-8"}
