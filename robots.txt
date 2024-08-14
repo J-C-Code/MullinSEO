@@ -2,7 +2,7 @@ User-agent: *
 Disallow: /admin/
 Disallow: /settings/
 Disallow: /private/
-Disallow: /static/
+Allow: /static/
 Allow: /static/images/
 Allow: /static/css/
 Allow: /static/js/
