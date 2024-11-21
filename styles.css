@@ -161,6 +161,10 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
+#footer-bottom{
+    color: black;
+}
+
 footer {
     background: #333;
     color: white;
